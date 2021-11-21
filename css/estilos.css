@@ -1,0 +1,163 @@
+@font-face {
+    font-family: cursiva;
+    src: url(../fuentes/Athena-Signature.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Light.ttf);
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Regular.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: brHendrix;
+    src: url(../fuentes/BRHendrix-Bold.ttf);
+    font-weight: 300;
+}
+
+header{
+    background-image: url(../imagenes/tramaPuntos.png), url(../imagenes/portfolioText.png);
+    background-repeat: no-repeat;
+    background-position-x: 42%, 10%;
+    background-position-y: 90%, 0%;
+    background-size: 32%;
+    margin: 4%;
+    padding: 0% 0% 15% 0%;
+}
+
+
+.foto{
+    background-image: url(../imagenes/tramaLineas.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 25%;
+    height: 25%;
+    margin-left: 15%;
+}
+
+.presentacion{
+    margin: 9% 0% 0%;
+    padding-left: 8%;
+}
+
+main{
+    margin: 10%;
+}
+
+img{
+    width: 80%;
+    padding-bottom: 15%;
+}
+
+#home{
+    width: 30%;
+    height: 30%;
+    margin-left: 2%;
+}
+
+.nombre{
+    background-image: url(../imagenes/lineaColor.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 62%;
+    width: 100%;
+    font-family: cursiva;
+    font-weight: 100;
+}
+
+.boutMe, .saludo{
+    font-family: brHendrix;
+    font-weight: 300;
+}
+
+.boutMe{
+    padding-bottom: 5%;
+}
+
+.rubro{
+    font-family: brHendrix;
+    font-weight: 300;
+    margin-left: 62%;
+}
+
+p{
+    font-family: brHendrix;
+    font-weight: 100;
+}
+
+.link{
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url(../logos/redes.svg);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: 0px 0px;
+}
+
+.link:hover{
+    background-position: 0px -56px;  
+}
+
+.insta{
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url(../logos/redes.svg);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: -70px 0px;
+}
+
+.insta:hover{
+    background-position: -70px -56px;  
+}
+
+.behance{
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-image: url(../logos/redes.svg);
+    background-repeat: no-repeat;
+    background-size: 400%;
+    background-position: -139px 0px;
+}
+
+.behance:hover{
+    background-position: -139px -56px;  
+}
+
+@media (max-width: 768px){
+    .sobreMi{
+        padding: 5% 12%;
+    }
+
+    header{
+        background-position-x: 69%, 36%;
+        background-position-y: 15%, 2%;
+    }
+
+    .presentacion{
+        margin-left: 20%;
+        padding: 43% 0% 0% 20%;
+    }
+
+    .nombre{
+        background-size: 80%;
+    }
+
+    header{
+        padding: 0%;
+    }
+
+    .foto{width: 40%;
+    }
+}
